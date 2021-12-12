@@ -5,7 +5,7 @@ public class Nutzer {
 	private boolean ü18;
 
 	/**
-	 * 
+	 * LOLLOLOLOLOLOLOL
 	 * @param name
 	 * @param passwort
 	 */
