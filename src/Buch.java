@@ -1,14 +1,53 @@
 public class Buch extends AusleihbaresMedium {
 
-	private int seitenanzahl;
+	private String titel;
+	private String autor;
+	private boolean verfügbarkeit;
+	private int exemplare;
+	private long ISBN;
 
-	/**
-	 * @param titel
-	 * @param autor
-	 * @param verfügbarkeit
-	 * @param exemplare
-	 */
-	public Buch(String titel, String autor, boolean verfügbarkeit, int exemplare) {
-		super(titel, autor, verfügbarkeit, exemplare);
+
+	public Buch(String titel, String autor, boolean verfügbarkeit, int exemplare, long ISBN) {
+		super(titel, autor, verfügbarkeit, exemplare, ISBN);
+	}
+
+	public String getTitel() {
+		return titel;
+	}
+
+	public void setTitel(String titel) {
+		this.titel = titel;
+	}
+
+	public String getAutor() {
+		return autor;
+	}
+
+	public void setAutor(String autor) {
+		this.autor = autor;
+	}
+
+	public boolean isVerfügbarkeit() {
+		return verfügbarkeit;
+	}
+
+	public void setVerfügbarkeit(boolean verfügbarkeit) {
+		this.verfügbarkeit = verfügbarkeit;
+	}
+
+	public int getExemplare() {
+		return exemplare;
+	}
+
+	public void setExemplare(int exemplare) {
+		this.exemplare = exemplare;
+	}
+
+	public long getISBN() {
+		return ISBN;
+	}
+
+	public void setISBN(long ISBN) {
+		this.ISBN = ISBN;
 	}
 }

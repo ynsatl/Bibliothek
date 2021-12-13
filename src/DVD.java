@@ -10,6 +10,6 @@ public class DVD extends AusleihbaresMedium {
 	 * @param exemplare
 	 */
 	public DVD(String titel, String autor, boolean verfügbarkeit, int exemplare) {
-		super(titel, autor, verfügbarkeit, exemplare);
+		super(titel, autor, verfügbarkeit, exemplare, ISBN);
 	}
 }

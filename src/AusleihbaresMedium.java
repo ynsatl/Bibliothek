@@ -10,13 +10,13 @@ public class AusleihbaresMedium<kategorie>{
 	private  kategorie kategorie;
 
 	/**
-	 * 
-	 * @param titel
+	 *  @param titel
 	 * @param autor
 	 * @param verfügbarkeit
 	 * @param exemplare
+	 * @param ISBN
 	 */
-	public AusleihbaresMedium(String titel, String autor, boolean verfügbarkeit, int exemplare) {
+	public AusleihbaresMedium(String titel, String autor, boolean verfügbarkeit, int exemplare, long ISBN) {
 		// TODO - implement AusleihbaresMedium.AusleihbaresMedium
 		throw new UnsupportedOperationException();
 	}
