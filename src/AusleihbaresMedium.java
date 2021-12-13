@@ -9,6 +9,17 @@ public class AusleihbaresMedium<kategorie>{
 	private boolean reserviert;
 	private  kategorie kategorie;
 
+	public AusleihbaresMedium(String titel, String autor, int ISBN, boolean verfügbarkeit, int exemplare, long mediumID, boolean reserviert, kategorie kategorie) {
+		this.titel = titel;
+		this.autor = autor;
+		this.ISBN = ISBN;
+		this.verfügbarkeit = verfügbarkeit;
+		this.exemplare = exemplare;
+		this.mediumID = mediumID;
+		this.reserviert = reserviert;
+		this.kategorie = kategorie;
+	}
+
 	/**
 	 * 
 	 * @param titel
